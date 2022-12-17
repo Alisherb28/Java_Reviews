@@ -1,0 +1,89 @@
+Java Programming Week09
+
+Review Topics: Constructors
+			   Statics (Variables & Methods)
+			   Instance vs Static
+
+Package name: week09_review
+
+
+Next week:
+	Statics, Access Modifiers
+	OOP
+
+
+Regular methods:
+
+		AM Specifier Return-type MethodName(Parameters){
+
+		}
+
+
+Constructor: A special method that every class must have
+
+			used for instantiate/create object
+
+			execution depends on creation of object
+
+		Declaring:
+
+			AM Classname(parameters){
+
+			}
+
+
+
+
+Creating Object:
+		new ExisitingConstructor
+
+
+
+Scrum Task:
+	1. create a class called Tester
+		    Attributes:
+		        name, gender, dateOfBirth, age, employeeID, JobTitle, Salary
+
+		    Add a constructor that can set all the fields
+
+		    Actions:
+		       smokeTesting(),  creatingTicket(), dailyStandUp(), toString()
+
+	2. create a class called Developer
+	        Attributes:
+	        	name, gender, dateOfBirth, age, employeeID, JobTitle, Salary
+
+        	Add a constructor that can set all the fields
+
+	        Actions:
+	        	coding(), unitTesting(), fixingBug(), toString()
+
+	3. create a class called ScrumTeam
+           	Attributes:
+                  PO, BA, SM (for storing their names ONLY)
+                  testers, developers, daysOfSprint
+
+            Add a constructor that can set the PO, BA, SM and daysOfSprint
+
+         	Actions:
+                addTester(Tester tester): adds the given tester to the testers ArrayList
+
+                addTesters(Tester[] testers): adds the given testers to the testers ArrayList
+
+                addDeveloper(Developer developer): adds the given developer to the developers ArrayList
+
+                addDevelopers(Developer[] developers): adds the given developers to the developers ArrayList
+
+                removeTester(long employeeID): removes the given tester from the testers ArrayList
+
+                removeDeveloper(long employeeID): removes the developer from the developers ArrayList
+
+                toString(): prints number of tester,& developers,  PO name, SM name, BA name, and daysOfSprint
+
+	4.create a class called AppleInc:
+            1. create an array of Testers and add the testers from your group
+            2. create an array of developers add the developers from your group
+            3. create an object of ScrumTeam named scrum1 and store the testers & developers above to the scrum team
+            4. Display the full infos of the scrum team
+            5. Create another object of ScrumTeam named scrum2 and store 2 testers & 5 develoeprs objects
+            6. Create an array of ScrumTeam and store all the scum objects (scrum1 & scrum2)

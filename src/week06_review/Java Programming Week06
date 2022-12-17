@@ -1,0 +1,69 @@
+Java Programming Week06
+
+Review Topics: Loops
+                    For Loop
+                    While Loop
+                    Nested Loop
+
+               Class & Object
+
+Package name: week06_review
+
+
+Loops: Repeated Action
+
+    For loop: When the repetition is fixed
+
+                     i =0;  i < length
+                for(init; condition; i++){
+                    code
+                }
+
+                RemoveDuplicates
+
+
+
+    While loop: When the repetition is NOT fixed
+                repeated If
+
+                while(Condition){
+                    code
+                }
+
+                if(Condition){
+                    code
+                }
+
+
+    Do-While loop: When the repetition is NOT fixed
+                    Loop MUST be executed at least once
+
+
+                do{
+                    code
+                }while(Condition);
+
+
+    Nested loop: loop inside another loop
+
+
+            Frequency Task
+
+
+
+Class: template of objects. determines how the object should be created, contains & behave
+                    indicates all the attributes & actions the objects of the class need
+
+               instance variables: belong to the object
+                                    each object has its own copy of the instance variable
+
+               instance methods: belong to the object
+                                each object has its own copy
+
+                    instance: multiple copies
+                    static: one copy ONLY
+
+
+
+
+Object: instance of the class. has its own memory

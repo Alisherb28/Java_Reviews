@@ -1,0 +1,76 @@
+Java Programming Week08
+
+Review Topics:  ArrayList
+                Array vs ArrayList
+
+package name: week08_review
+
+3 data structure:
+        1. Array: size is fixed. faster. supports both primitive & non primitives
+        2. Collection: size is dynamic. ONLY support non-primitives
+        3. Map: size is dynamic. ONLY support non-primitives
+
+
+ArrayList: part of collection. Internally uses array
+        has index numbers
+
+
+ArrayList vs Array: Both has index numbers
+                    Elements are easier to access
+                    Elements can be updated
+
+            Array: accepts primitives
+                   does not support insertion/deletion of the element
+                   can be multi-dimensional
+                   Faster
+
+
+            ArrayList: does not accept primitives
+                        supports insertion/deletion of the element
+                        can not be multi-dimensional
+                        Slower
+
+                        Methods
+
+    Remove methods of arrayList:
+        1. remove(): When we need to remove one element. DO NOT use it in a loop
+
+        2. removeAll(): when we need to remove multiple elements and those elements are known
+        3. retainAll(): when we need to retain multiple elements (Must be known) and remove the rest.
+
+        4. removeIf(): when we need to remove multiple elements under the conditions
+
+
+Tasks:
+    1. Write a program that can return the first unique elements from an arraylist
+
+            Do not use indexOf & lastIndexOf methods
+
+
+    2. Write a program that can remove string elements from an arraylist if the first and last characters of the string are same
+    ex:
+        list = {"Anna", "Canada", "Bob", "David", "Lan", "Abida", "Ebrahim", "Farida"}
+    output:
+        ["Lan", "Ebrahim", "Farida"]
+
+
+    3. write a program that can return the nth largest number from an arraylist
+            ex:
+                arraylist = {1,2,3,4,5,6,7,7,8,8}
+                n = 5
+            output:
+                4
+
+    4. Write a program that can return the unique characters from a string
+
+            DO NOT use:
+                for loop, for each loop, while loop, do while loop
+
+
+
+
+Next week:
+    day25: Date & Time
+    day26: Constructors
+
+    Saturday: Debug

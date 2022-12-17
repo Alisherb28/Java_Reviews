@@ -1,0 +1,180 @@
+Java Programming Week03
+
+Review Topics:
+    Logical Operators
+    If Statements
+        (Ternaries)
+    Switch Statement
+    Scanner
+
+package name: week03_review
+
+
+Logical Operators: &&, ||, !
+
+    &&: and. both must be true in order to return true.
+
+        In order to login: BOTH username AND password must be correct
+
+    ||: or. Either. only one condition need to be true in order to return true
+
+        In order to login to github: EITHER the username OR email need to be provided
+
+    !: not. opposite
+
+            not Valied: !Valid
+            not Eligible: !Eligible
+            not passed: !Passed
+
+If Statements: Conditional Statements
+
+    Single If: for one condition
+
+                if(Condition){
+                    Statements
+                }
+
+    If & Else: 2 possible conditions ONLY ( not more not less)
+
+            if(ConditionA){
+                StatementA
+            }else{ //!ConditionA
+                StatementB
+            }
+
+    Multi-branch If: for 3 or more conditions
+
+            if(ConditionA){
+                StatemntA
+            }else if(ConditionB){
+                StatementB
+            }else{
+                StatementrC
+            }
+
+        StatementA: ConditionA is true
+        StatementB: ConditionA is false, ConditionB is true
+        StatementC: ConditionA & ConditionB are false
+
+
+    Nested If: for pre-conditions
+
+                mandatory step
+
+            if(Pre-Condition1){
+
+                If & Else
+
+            }else{
+
+                Muli-branch If
+            }
+
+
+
+    A, B, C, D, F
+
+
+
+        If the mall is open:
+
+            if Weather is getting hot:
+                    buy T Shirt..
+
+            If Weather is getting cold:
+                    buy jacket...
+
+        If the mall is closed:
+
+            if Amazon has it:
+                    buy it on amazon.com
+
+            else if Macy has it:
+                    buyt it on macy.com
+
+            else if etsy has it:
+                    buy it on etsy
+
+            else
+                    buy it on ebay
+
+
+If WebDriver is installed:
+
+    If browser name is set to Chrome:
+            open chromer browser....
+
+    If browser name is set Safari:
+            open safari browser....
+
+    If browser name is set Firfox:
+            open firefix browser....
+
+    ...
+
+Otherwise:
+    Set the Webdriver....
+
+
+
+
+Ternaries: shoortcut of if statements
+
+        ? if keyword
+             (Condition)? value
+
+        : else keyword
+                : value
+
+        :? else if
+                :(Condition)? value
+
+
+        TOTAL NUMBER OF ? AND : MUST BE EVEN
+
+
+.equalsIgnoreCase() , contains(), startsWith() ..... >, < , <= , !=
+
+
+Swicth:
+
+    ==, .equals()
+
+
+    switch (expression){ //MUST be evaluated to a single value (can not be long, float, double, boolean)
+
+        case caseValue1:
+                StatementA
+                break;
+
+        case caseValue2:
+            StatementB
+            break;
+
+        ....
+
+        default:
+            StatementC
+
+
+    }
+
+    SWITCH statement looks for EXACT MATCH only
+
+    caseValue MUST BE unique AND must match with the data type of switch' expression
+
+
+
+{}
+
+Scanner: get user input & read files
+
+    Scanner input = new Scanner(System.in);
+
+    nextInt(): for int inputs
+    nextDouble(): for double inputs
+
+    next(): for String inputs (till firstspace)
+    nextLine(): for String inputs (whole line)
+
+
